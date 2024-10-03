@@ -1,6 +1,6 @@
-:root{
+/* :root{
      --bordercolor: (red);
-}
+} */
 
 *{
     margin: 0;
@@ -9,5 +9,60 @@
 }
 
 .outer{
-    background: var(--bordercolor);
+    /* background: var(--bordercolor); */
+    height: 650px;
+    width: 650px;
+    border: 1px solid red;
+    margin: 0px auto;
+}
+
+.box_row{
+    height: 250px;
+    width: 650px;
+    /* background: blue; */
+    float: left;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    /* background: red; */
+    /* border: 60px solid red; */
+    
+}
+.border_red{
+    border: 35px solid red;
+}
+
+.border_green{
+    border: 35px solid green;
+}
+.border_blue{
+    border: 60px solid blue;
+}
+.border_yellow{
+    border: 60px solid yellow;
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 5px solid red;
+    box-sizing: border-box;
+    margin: 10px;
+    /* float: left;
+    display: flex;
+    flex-wrap: wrap; */
+}
+
+#right_red{
+    position: absolute;
+    left: 445px;
+    top: 36px;
+}
+#right_red1{
+    position: absolute;
+    left: 445px;
+    top: 96px;
 }
